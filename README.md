@@ -1,8 +1,8 @@
-# ✨ MoodWave
+# ✨ MoodFlow
 
 **Share your vibe with the world in real-time**
 
-MoodWave is a novel real-time collaborative mood visualization application powered by PubNub. It creates an immersive, interactive canvas where people from around the world can share their emotional states and watch as their collective vibes create a beautiful, ever-evolving visual landscape.
+MoodFlow is a novel real-time collaborative mood visualization application powered by PubNub. It creates an immersive, interactive canvas where people from around the world can share their emotional states and watch as their collective vibes create a beautiful, ever-evolving visual landscape.
 
 ## 🌟 Features
 
@@ -70,11 +70,11 @@ python3 -m http.server 8000
 
 ## 🌐 PubNub Integration
 
-MoodWave uses PubNub's demo keys for instant connectivity:
+MoodFlow uses PubNub's demo keys for instant connectivity:
 - **Publish Key**: `demo`
 - **Subscribe Key**: `demo`
 
-Each room is a separate channel (`moodwave-{roomname}`) with presence enabled to track active users.
+Each room is a separate channel (`moodflow_{roomname}`) with presence enabled to track active users.
 
 ## 🎯 Novel Features
 
